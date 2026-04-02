@@ -1,7 +1,10 @@
 # Controllable Synthetic Human Generation with Semantic Verification for PPE Analysis
 
+
 Official implementation of the paper:
 **"Controllable Synthetic Human Generation with Semantic Verification for PPE Analysis"**
+
+![](srcs/colored_pipeline.png)
 
 ---
 
