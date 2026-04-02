@@ -1,0 +1,48 @@
+{
+  "generation_mode": "single_stage",
+  "gown": {
+    "Complete": 10,
+    "Incomplete": 10,
+    "Absent": 5
+  },
+  "mask": {
+    "Complete": 10,
+    "Incomplete": 10,
+    "Absent": 5
+  },
+  "glove": {
+    "Complete": 8,
+    "Incomplete-Left": 8,
+    "Incomplete-Right": 8,
+    "Absent": 1
+  },
+  "eyewear": {
+    "Complete": 10,
+    "Incomplete": 10,
+    "Absent": 5
+  },
+  "gender": {
+    "Male": 12,
+    "Female": 13
+  },
+  "race": {
+    "Asian": 5,
+    "Black": 5,
+    "White": 5,
+    "Hispanic": 5,
+    "Other": 5
+  },
+  "camera_top_normal": {
+    "normal": 20,
+    "top": 5
+  },
+  "camera_front_back": {
+    "front": 18,
+    "back": 7
+  },
+  "camera_left_right": {
+    "NA": 15,
+    "left": 5,
+    "right": 5
+  }
+}
