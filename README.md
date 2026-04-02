@@ -46,7 +46,7 @@ All attributes are described in a single prompt, with no iterative editing.
 
 ### Semantic Verification
 
-After generation, a Gemini LLM inspects each image and reports the detected status of each PPE item (`present` / `missing` / `incorrectly_worn`), which is compared against the generation annotation. Images that fail verification can be filtered before use in downstream training.
+After generation, a Gemini LLM inspects each image and reports the detected status of each PPE item (`complete` / `absent` / `incomplete`), which is compared against the generation annotation. Images that fail verification can be filtered before use in downstream training.
 
 ---
 
@@ -201,6 +201,7 @@ Each annotation JSON records the full generation configuration (PPE states, demo
 
 ## Citation
 
+Citation details will be updated upon publication.
 If you use this code in your research, please cite:
 
 ```bibtex
